@@ -23,7 +23,7 @@ along with Yaaic.  If not, see <http://www.gnu.org/licenses/>.
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp" android:dividerPadding="5dp">
 
     <TextView
         android:layout_width="fill_parent"
@@ -64,16 +64,11 @@ along with Yaaic.  If not, see <http://www.gnu.org/licenses/>.
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/about_irclink"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="none"
-        android:clickable="true"
-        android:gravity="center_horizontal"
-        android:linksClickable="false"
-        android:text="@string/app_irc"
-        android:textColor="#FF6CB600"
-        android:textSize="16sp" />
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/original_credits"
+            android:textSize="14sp" />
 
     <TextView
         android:layout_width="fill_parent"

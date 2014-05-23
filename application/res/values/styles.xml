@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Yaaic" parent="Theme.Sherlock">
+    <!--<style name="Theme.Yaaic" parent="Theme.Sherlock">
         <item name="android:editTextStyle">@style/edittext_holo</item>
-    </style>
-    <style name="edittext_holo" parent="@android:style/Widget.EditText">
+    </style>-->
+    <!--<style name="edittext_holo" parent="@android:style/Widget.EditText">
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:clickable">true</item>
@@ -12,5 +12,23 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColorHint">#FFFFFF</item>
         <item name="android:textColorHighlight">#FF0000</item>
-     </style>
+     </style>-->
+    <style name="Theme.Juttele" parent="Theme.Sherlock.Light.DarkActionBar" >
+        <item name="actionBarStyle">@style/JutteleActionBar</item>
+        <item name="android:actionBarStyle">@style/JutteleActionBar</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/JutteleViewPagerTitlePageIndicator</item>
+    </style>
+
+    <style name="JutteleActionBar" parent="Widget.Sherlock.ActionBar.Solid">
+        <item name="android:background">@drawable/actionbar_bg_light</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse</item>
+        <item name="android:icon">@drawable/icon_actionbar</item>
+    </style>
+
+    <style name="JutteleViewPagerTitlePageIndicator">
+        <item name="android:background">@drawable/juttele_vpi__tab_indicator</item>
+        <item name="footerColor">#00b060</item>
+
+    </style>
 </resources>

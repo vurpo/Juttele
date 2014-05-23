@@ -4,7 +4,7 @@
     <string name="default_show_timestamp" translatable="false">false</string>
     
     <string name="key_show_icons" translatable="false">show_icons</string>
-    <string name="default_show_icons" translatable="false">true</string>
+    <string name="default_show_icons" translatable="false">false</string>
     
     <string name="key_show_colors" translatable="false">show_colors</string>
     <string name="default_show_colors" translatable="false">true</string>
@@ -31,7 +31,7 @@
     <string name="default_quitmessage" translatable="false">Yaaic - Yet another Android IRC client - http://www.yaaic.org</string>
     
     <string name="key_fontsize" translatable="false">fontsize</string>
-    <string name="default_fontsize" translatable="false">11</string>
+    <string name="default_fontsize" translatable="false">13</string>
     
     <string name="key_voice_recognition" translatable="false">voice_recognition</string>
     <string name="default_voice_recognition" translatable="false">false</string>

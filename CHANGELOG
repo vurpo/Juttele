@@ -1,4 +1,12 @@
 --------------------------------------------------------------------------------
+Juttele 0.1 (Beta) - 2014-05-23
+--------------------------------------------------------------------------------
+ * New conversation UI, inspired by Google's cards, Hangouts and WhatsApp
+ * New icon
+ * New color scheme
+
+Yaaic changelogs:
+--------------------------------------------------------------------------------
 Yaaic 1.0 - 2012-07-29 - 89 commits, 685 files changed, 7 authors
 --------------------------------------------------------------------------------
  * New cleaned up UI using ActionBar and ViewPager.
